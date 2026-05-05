@@ -11,7 +11,7 @@ st.title("🎁 Live Stream Giveaway Bot")
 st.write("Extract usernames from a live chat to pick a random winner!")
 
 # --- Input Form ---
-target_url = st.text_input("Enter Stream URL:", "https://www.onlive.vn/blvhoangluanblvhoangluan")
+target_url = st.text_input("Enter Stream URL:", "https://www.onlive.vn/")
 duration = st.slider("How long to scrape the chat? (Seconds)", min_value=10, max_value=300, value=60)
 css_selector = st.text_input("CSS Selector (Advanced):", 'span.channel-text[translate="no"]')
 
