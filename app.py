@@ -7,7 +7,7 @@ import random
 
 # --- UI Setup ---
 st.set_page_config(page_title="Giveaway Scraper", page_icon="🎁")
-st.title("🎁 Live Stream Giveaway Bot")
+st.title("🎁 Live Stream Giveaway Bot by Cafemilkrock")
 st.write("Extract usernames from a live chat to pick a random winner!")
 
 # --- Input Form ---
